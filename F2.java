@@ -8,13 +8,13 @@ public class F2 {
 
 private static void printHeader() {//程序功能简单说明
 		// TODO Auto-generated method stub
-    System.out.println("-程序輸出50道100以內的加減法算式的習題\n"
-    		+ "-每次運行程序可得到一套50道題的習題及答案");
+    System.out.println("-程序輸出50道100以內的加減法算式的答题\n"
+    		+ "-每次运行程序可得到一套50道題的习题及答案");
 	}
 
 	private static void printCalculations() {//输出习题答案的方法
 		printExercise();
-		System.out.println("如下是習題的参考答案：");
+		System.out.println("如下是习題的参考答案：");
 		for(int  i=0;i<50;i++){
 			System.out.println(""+(i+1)+":\t"+Array2[i]);	
 		}
