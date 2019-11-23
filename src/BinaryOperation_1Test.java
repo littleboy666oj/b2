@@ -1,5 +1,5 @@
+/*对算式类中的方法进行了必要的测试，对于关键的方法设计了多个测试用例*/
 import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
