@@ -1,11 +1,10 @@
 
 
-
+/*习题类代码，通过传递参数访问算式类，提供输出操作*/
 public class Exercise_1 {
-
 	private static final short OPERATION_NUMBER=50;
 	private static final short COLUMN_NUMBER=5;
-	private BinaryOperation_1 operationList[] = new BinaryOperation_1 [OPERATION_NUMBER];
+	private BinaryOperation_1 operationList[] = new BinaryOperation_1 [OPERATION_NUMBER];//实例对象数组，通过逐个调用对象方法完成输出
         
 	// 在数组中增加算术运算题前先检查是否已经在数组中，以避免重复，
 	public void generateBinaryExercise() {
