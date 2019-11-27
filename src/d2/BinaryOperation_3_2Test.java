@@ -11,7 +11,7 @@ public class BinaryOperation_3_2Test {
 	// private static final boolean t1 = true;
 	@Before
 	public void setUp() throws Exception {
-		//BinaryOperation_3_2();
+		// BinaryOperation_3_2();
 	}
 
 	private void BinaryOperation_3_2() {
