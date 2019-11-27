@@ -1,5 +1,5 @@
 package d2;
-
+/**/
 public class AdditionOperation extends BinaryOperation_3_2 {
 	public AdditionOperation() {	
 		generateBinaryOperation('+');		
